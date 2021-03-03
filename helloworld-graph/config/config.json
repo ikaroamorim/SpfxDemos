@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-graph-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorldGraph/HelloWorldGraphWebPart.js",
+          "manifest": "./src/webparts/helloWorldGraph/HelloWorldGraphWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldGraphWebPartStrings": "lib/webparts/helloWorldGraph/loc/{locale}.js"
+  }
+}

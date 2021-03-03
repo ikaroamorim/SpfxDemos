@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "asset-deployment-webpart-client-side-solution",
+    "id": "0e741267-383a-4b8e-8ee8-2d59c96d2f10",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "features": [{
+      "title": "asset-deployment-webpart-client-side-solution",
+      "description": "asset-deployment-webpart-client-side-solution",
+      "id": "59a4334e-bae8-4f04-a3d5-6c87597e88d9",
+      "version": "1.0.0.0",
+      "assets": {
+        "elementManifests": [
+          "elements.xml"
+        ],
+        "elementFiles":[
+          "schema1.xml",
+          "schema2.xml"
+        ]
+      }
+    }]
+
+  },
+  "paths": {
+    "zippedPackage": "solution/asset-deployment-webpart.sppkg"
+  }
+}
