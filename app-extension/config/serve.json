@@ -4,12 +4,13 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://ikarocompany01.sharepoint.com/sites/CommSiteModerno/SitePages/TesteExtension.aspx",
+      "pageUrl": "https://ikarocompany01.sharepoint.com/sites/CommSiteModerno/SitePages/Home.aspx",
       "customActions": {
         "5aa2c451-7f86-4721-b600-47b3b27fa59b": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
-            "testMessage": "Test message"
+            "Top": "Top area of the page",
+            "Bottom": "Top area of the page"
           }
         }
       }
